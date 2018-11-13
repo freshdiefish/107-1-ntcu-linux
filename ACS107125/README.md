@@ -29,4 +29,4 @@
 
  因為擁有不同的資料內容，故作為獨立的兩檔案擁有不同的inode號碼
 
-![image](https://github.com/freshdiefish/107-1-ntcu-linux/blob/HW-5/ACS107125/5_03.png)
+![image](https://github.com/freshdiefish/107-1-ntcu-linux/blob/HW-5/ACS107125/5_03.PNG)
