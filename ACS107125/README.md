@@ -7,7 +7,7 @@
 
 且目前使用此號碼的檔案只有一個
 
-![image]("https://github.com/freshdiefish/107-1-ntcu-linux/blob/HW-5/ACS107125/5_01.png")
+![image](https://github.com/freshdiefish/107-1-ntcu-linux/blob/HW-5/ACS107125/5_01.png)
 
 然後我們使用ln指令建立一個**實體連結(Hard link)** 新檔名為 _/srv/hosts.hard_
 
@@ -17,7 +17,7 @@
 
 而新舊檔案連結一樣的inode指向block裡的資料，可以拿來當備份的功能
 
-![image]("https://github.com/freshdiefish/107-1-ntcu-linux/blob/HW-5/ACS107125/5_02.png")
+![image](https://github.com/freshdiefish/107-1-ntcu-linux/blob/HW-5/ACS107125/5_02.png)
 
 再來，我們使用ln並加上 **-s** 參數表示建置一個 **符號連結(Symbolic Link)**
 
@@ -29,4 +29,4 @@
 
  因為擁有不同的資料內容，故作為獨立的兩檔案擁有不同的inode號碼
 
-![image]("https://github.com/freshdiefish/107-1-ntcu-linux/blob/HW-5/ACS107125/5_03.png")
+![image](https://github.com/freshdiefish/107-1-ntcu-linux/blob/HW-5/ACS107125/5_03.png)
